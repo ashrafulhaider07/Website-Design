@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    /* background-color: aliceblue; */
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+li a{
+    padding: 25px 40px;
+    display: block;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: all .4s;
+    font-size: 22px;
+}
+li a:hover{
+    background-color: rgb(200, 0, 200);
+    color: white;
+    
+
+}
+.button{
+   display: flex;
+   gap: 10px;
+}
+.btn2{
+    color: white;
+    background-color: rgb(246, 0, 246);
+    text-decoration: none;
+    padding: 25px 40px;
+    border-radius: 10px;
+    transition: all .4s;
+    font-size: 22px;
+    display: inline-block;
+}
+.btn2:hover{
+    background-color: rgb(64, 1, 64);
+}
+.btn1{
+    color: black;
+    text-decoration: none;
+    padding: 25px 40px;
+    border-radius: 10px;
+    transition: all .4s;
+    font-size: 22px;
+}
+.btn1:hover{
+    background-color: rgb(246, 0, 246);
+    color: white;
+ }
+ .header-content h1{
+    font-size: 22px;
+    color: white;
+   
+    font-size: 60px;
+ }
+ .header-content p{
+    color: white;
+    text-align: justify;
+    margin-bottom: 10px;
+  
+ }
+
+
+
+
+
+
+ .header-img img{
+    width: 400px;
+ }
+
+
+ .header{
+    display: flex;
+    background:linear-gradient(to right, rgba(0, 0, 8, 0.932), rgba(101, 0, 93, 0.271)), url(music-arrangement-with-black-headphones-with-copy-space.jpg)center/cover;
+    /* background-position: center;
+    background-size: cover; */
+    height: 90vh;
+    width: 100%;
+    gap: 150px;
+    text-align: left;
+    align-items: center;
+    padding: 0 200px;
+    /* margin-bottom: 150px; */
+    
+ }
+ .main{
+    display: flex;
+    /* height: 90vh; */
+    /* width:100%; */
+    gap: 150px;
+    /* text-align: left; */
+    align-items: center;
+    justify-content: center;
+    padding: 100px 200px;
+    /* margin-bottom: 150px; */
+ }
+ .heade-img img{
+    width: 700px;
+ }
+.header-conten h1{
+   margin-bottom: 30px;
+   font-size: 50px;
+}
+
+.header-conten p{
+    margin-bottom: 30px;
+    line-height: 40px;
+    
+}
+
+
+
+
+
+
+
+
+
+#main-bg{
+    background-color: aqua;
+}
+
+
+/* .head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 200px;
+    gap: 150px;
+}
+.head-img img{
+    width: 700px;
+}
+.head-content h1{
+    margin-bottom:30px ;
+    font-size: 50px;
+}
+.head-conten p{
+   margin-bottom: 30px;
+} */
